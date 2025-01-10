@@ -1,14 +1,40 @@
 .card{
-    border: 2px solid black;
+    border: 2px solid rgb(170, 168, 168);
     width: fit-content;
     margin: 40px auto;
+    background-color: rgb(181, 175, 175);
+    border-radius: 20px;
     
+}
+
+.image-container{
+    border: 1px solid grey;
+    margin: 15px 15px;
+    background-color: grey;
+    border-radius: 20px;
 }
 
 .img{
     height: 300px;
     display: block;
-    padding: 20px 40px;
-    margin: 10px auto;
+    padding: 10px 40px;
+    margin: 5px auto;
 }
 
+.card-text{
+    padding: 1px 20px;
+    color: rgb(34, 31, 77);
+    font-size: 30px;
+}
+
+.card-smalltext{
+    padding: 1px 20px;
+    color: rgb(34, 31, 77);
+    
+}
+
+.card-price{
+    padding: 1px 20px;
+    color: rgb(34, 31, 77);
+    
+}
