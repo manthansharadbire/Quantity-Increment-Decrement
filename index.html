@@ -7,16 +7,22 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="card" id="card">
+    <div class="card" id="card">
     <div class="image-container"><img src="./images/whey.png" alt="whey" id="img" class="img"></div>
     <span class="card-text">Dymatize ELITE Whey</span><br>
     <span class="card-smalltext">2.3Kg Rich Chocolate</span><br><br>
     <span class="card-price"><b>₹10,044</b>&nbsp;&nbsp;&nbsp;<del>₹13,999</del>&nbsp;&nbsp;&nbsp;<b>40% off</b></span>
-</div>
-<div class="icons" id="icons">
-    <img src="./images/minus.png" alt="minusicon" id="minusicon">
-    
-</div>
+    <div class="icons">
+    <img src="./images/minus.png" alt="minusicon" id="minusicon" onclick="minusQuantity()">
+    <span id="quantity"><b>1</b></span>
+    <img src="./images/plus.png" alt="plusicon" id="plusicon" onclick="plusQuantity()">
+    </div>
+    <div class="btn-container">
+    <button class="btn-addtocart">Add to Cart</button>
+    <button class="btn-buynow">Buy Now</button>
+    </div>
+    </div>
+
 <script src="script.js"></script>
 </body>
 </html>

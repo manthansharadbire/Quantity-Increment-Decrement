@@ -1,10 +1,9 @@
 .card{
     border: 2px solid rgb(170, 168, 168);
     width: fit-content;
-    margin: 40px auto;
+    margin: 20px auto;
     background-color: rgb(181, 175, 175);
     border-radius: 20px;
-    
 }
 
 .image-container{
@@ -35,6 +34,66 @@
 
 .card-price{
     padding: 1px 20px;
-    color: rgb(34, 31, 77);
+    color: rgb(34, 31, 77);   
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+#minusicon{
+height: 20px;
+}
+#minusicon:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#quantity{
+    padding: 1px 20px;
+}
+
+#plusicon{
+    height: 20px;
     
+}
+#plusicon:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.btn-container{
+    margin: 10px 10px;
+    display: flex;
+    justify-content: center;
+    margin: 13px 10px;
+   
+}
+
+.btn-buynow{
+    padding: 10px 32px;
+    display: block;
+    margin: 1px 10px;
+    border:none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgb(213, 211, 208)
+}
+.btn-buynow:hover{
+    transform: scale(1.02);background-color:#fff;
+}
+
+.btn-addtocart{
+    padding: 10px 25px;
+    display: block;
+    margin: 1px 10px;
+    border:none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgb(213, 211, 208)
+}
+.btn-addtocart:hover{
+    transform: scale(1.02);background-color:#fff;
 }
